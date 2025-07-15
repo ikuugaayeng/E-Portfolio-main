@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "Home\nWork Experience\nPublications\nContent\n\n\n\n\n\nI am a recent graduate of the Master of Geomatics for Environmental Management (MGEM) program at the University of British Columbia (UBC), where my research focused on shade mapping of trees and buildings to support urban climate adaptation. I used LiDAR, satellite imagery, and 3D spatial models to assess tree shade coverage and prioritize areas for nature-based solutions in urban planning.\nCurrently, I work as a GIS Technician Intern at Social Planning Cowichan, supporting the Cedar Project—an Indigenous-led initiative to restore and protect cedar ecosystems in the Cowichan Valley. I specialize in spatial analysis, map design, LiDAR processing, GPS integration, and custom mobile mapping applications.\nWith prior experience supporting municipal and regional planning projects in both Canada and Ghana, I am passionate about using GIS to inform sustainable land use, infrastructure planning, and climate resilience strategies.\n\n\n\n\n\n\n\nIsaac Kuugaayeng, Dr. Nicholas Coops\n\n\nUBC, MGEM Capstone 2024\n\n\nAbstract\n\n\nThe upsurge of climate change has exacerbated urban heat island (UHI) effect, leading to severe consequences for human health, urban livability, and energy demand. Rising temperatures significantly increase the demand for cooling energy, as the cooling load of buildings is heavily influenced by the amount of solar radiation reaching their surfaces. One of the most effective and sustainable strategies is urban greening. These interventions can take various forms, including street trees, urban parks, and vegetation surrounding buildings, all of which contribute to heat relief and improved urban resilience. Trees offer a wide range of ecosystem benefits that improve the climate and habitability of cities, including public spaces, by acting as natural shading and wind-shielding elements around buildings. By blocking solar radiation, trees help lower the energy needed for cooling, especially in buildings with poor window-to-wall ratios. This project contributes to NCAP’s goals by quantifying tree shade on buildings on UBC campus and analyzing its impact on building energy demand. Using high-resolution LiDAR data and sun position data, a Digital Surface Model (DSM) was created to represent campus elevation, and hillshade analysis was employed to simulate shade coverage at 15-minute intervals.\n\n\n\n\n\nIsaac Kuugaayeng\n\n\nSocial Planning Cowichan, Ongoing Project\n\n\nAbstract\n\n\nWestern Redcedar (Thuja plicata), an ecologically and culturally significant tree species in British Columbia, is increasingly threatened by climate stress, particularly prolonged droughts and soil moisture loss. This study aims to identify suitable planting sites for Western Redcedar across the Cowichan, Koksilah, and Chemainus River watersheds using a GIS-based Multi-Criteria Decision Analysis (MCDA). Five key environmental variables including elevation, slope, aspect, topographic wetness index (TWI), and soil conditions were assessed based on ecological relevance and processed into standardized raster layers. Each factor was reclassified into three suitability classes (Poor, Moderate, Good), and equally weighted. A composite suitability map was produced using a threshold approach, where areas meeting at least four out of five high-suitability criteria were classified as the suitable sites that support the growth redcedar. The resulting map highlights micro-sites that can support healthy cedar growth despite changing climate conditions. This work provides a valuable decision-support tool for conservation planner and Indigenous communities seeking to implement climate-adaptive forestry strategies and restore declining redcedar populations."
+  },
+  {
+    "objectID": "index.html#isaac-kuugaayeng",
+    "href": "index.html#isaac-kuugaayeng",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "Home\nWork Experience\nPublications\nContent"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "I am a recent graduate of the Master of Geomatics for Environmental Management (MGEM) program at the University of British Columbia (UBC), where my research focused on shade mapping of trees and buildings to support urban climate adaptation. I used LiDAR, satellite imagery, and 3D spatial models to assess tree shade coverage and prioritize areas for nature-based solutions in urban planning.\nCurrently, I work as a GIS Technician Intern at Social Planning Cowichan, supporting the Cedar Project—an Indigenous-led initiative to restore and protect cedar ecosystems in the Cowichan Valley. I specialize in spatial analysis, map design, LiDAR processing, GPS integration, and custom mobile mapping applications.\nWith prior experience supporting municipal and regional planning projects in both Canada and Ghana, I am passionate about using GIS to inform sustainable land use, infrastructure planning, and climate resilience strategies."
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "Isaac Kuugaayeng, Dr. Nicholas Coops\nUBC, MGEM Capstone 2024\n\n\n\n\nIsaac Kuugaayeng, Social Planning Cowichan\nOngoing Research 2025"
+  },
+  {
+    "objectID": "index.html#recent-projects-and-publications",
+    "href": "index.html#recent-projects-and-publications",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "Isaac Kuugaayeng, Dr. Nicholas Coops\n\n\nUBC, MGEM Capstone 2024\n\n\nAbstract\n\n\nThe upsurge of climate change has exacerbated urban heat island (UHI) effect, leading to severe consequences for human health, urban livability, and energy demand. Rising temperatures significantly increase the demand for cooling energy, as the cooling load of buildings is heavily influenced by the amount of solar radiation reaching their surfaces. One of the most effective and sustainable strategies is urban greening. These interventions can take various forms, including street trees, urban parks, and vegetation surrounding buildings, all of which contribute to heat relief and improved urban resilience. Trees offer a wide range of ecosystem benefits that improve the climate and habitability of cities, including public spaces, by acting as natural shading and wind-shielding elements around buildings. By blocking solar radiation, trees help lower the energy needed for cooling, especially in buildings with poor window-to-wall ratios. This project contributes to NCAP’s goals by quantifying tree shade on buildings on UBC campus and analyzing its impact on building energy demand. Using high-resolution LiDAR data and sun position data, a Digital Surface Model (DSM) was created to represent campus elevation, and hillshade analysis was employed to simulate shade coverage at 15-minute intervals.\n\n\n\n\n\nIsaac Kuugaayeng\n\n\nSocial Planning Cowichan, Ongoing Project\n\n\nAbstract\n\n\nWestern Redcedar (Thuja plicata), an ecologically and culturally significant tree species in British Columbia, is increasingly threatened by climate stress, particularly prolonged droughts and soil moisture loss. This study aims to identify suitable planting sites for Western Redcedar across the Cowichan, Koksilah, and Chemainus River watersheds using a GIS-based Multi-Criteria Decision Analysis (MCDA). Five key environmental variables including elevation, slope, aspect, topographic wetness index (TWI), and soil conditions were assessed based on ecological relevance and processed into standardized raster layers. Each factor was reclassified into three suitability classes (Poor, Moderate, Good), and equally weighted. A composite suitability map was produced using a threshold approach, where areas meeting at least four out of five high-suitability criteria were classified as the suitable sites that support the growth redcedar. The resulting map highlights micro-sites that can support healthy cedar growth despite changing climate conditions. This work provides a valuable decision-support tool for conservation planner and Indigenous communities seeking to implement climate-adaptive forestry strategies and restore declining redcedar populations."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Work Experience",
+    "section": "",
+    "text": "GIS Technician Intern, Social Planning Cowichan (SPC), Duncan, British Columbia\n- Process LiDAR data and satellite imagery using Python, ArcGIS Pro and QGIS to analyze land use change and support Indigenous-led cedar ecosystem restoration across the Cowichan, Koksilah, and Chemainus watersheds.\n- Lead the development of a custom mobile mapping app (Xpey’ Watch) using Python scripting and ArcGIS Online tools to automate field data collection and streamline stakeholder access to localized environmental datasets\n- Maintain ArcGIS Online spatial data infrastructure, perform QA/QC and update feature layers, manage metadata and enforce topological rules to ensure accuracy and integrity of utility and planning asset data.\n\n\n\nMGEM Capstone Researcher, University of British Columbia\n- Conducted shade mapping and 3D modeling of tree canopy using LiDAR and satellite data to assess its influence on building energy use on the UBC campus.\n- Created spatial models identifying priority areas for tree planting, improving urban climate resilience and contributing to a 10% increase in green space allocation.\n\n\n\nJunior Technical Advisor (Contract), German Development Cooperation (GIZ), Ghana\n- Produced high-quality maps and interactive ArcGIS Dashboards to track municipal-scale land use patterns, zoning designations, and utility infrastructure projects which enhanced client decision-making\n- Co-developed an e-learning platform and geospatial data library to enhance municipal level planning, infrastructure data sharing long-term capacity-building of planning technicians, improving consistency in infrastructure reporting\n-  Automated spatial data workflows using Python, SQL and Model Builder to enhance geoprocessing efficiency by 30%, increasing accuracy and the timeliness of infrastructure planning deliverables.\n\n\n\nPlanning Technician Intern, Physical Planning Department, Ghana\n- Reviewed architectural and construction drawings and administered updates to ArcGIS Online utility asset data, improving municipal geodatabase accuracy for permitting and asset management. - Reviewed and assessed 25+ development permits and conducted field inspections to verify project compliance with zoning bylaws and land-use policies, resulting in streamlined approval timelines and increased adherence to planning standards.\n- Contributed to the design and production of spatial and settlement structure plans and high-resolution thematic maps for the Jirapa Municipality that guided policy recommendations and land use zoning aligned with municipal growth strategies using QGIS and ArcGIS\n\nquarto clean"
+  },
+  {
+    "objectID": "resume.html#section",
+    "href": "resume.html#section",
+    "title": "Work Experience",
+    "section": "",
+    "text": "MGEM Capstone Researcher, University of British Columbia\n- Conducted shade mapping and 3D modeling of tree canopy using LiDAR and satellite data to assess its influence on building energy use on the UBC campus.\n- Created spatial models identifying priority areas for tree planting, improving urban climate resilience and contributing to a 10% increase in green space allocation."
+  },
+  {
+    "objectID": "resume.html#section-1",
+    "href": "resume.html#section-1",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Junior Technical Advisor (Contract), German Development Cooperation (GIZ), Ghana\n- Produced high-quality maps and interactive ArcGIS Dashboards to track municipal-scale land use patterns, zoning designations, and utility infrastructure projects which enhanced client decision-making\n- Co-developed an e-learning platform and geospatial data library to enhance municipal level planning, infrastructure data sharing long-term capacity-building of planning technicians, improving consistency in infrastructure reporting\n-  Automated spatial data workflows using Python, SQL and Model Builder to enhance geoprocessing efficiency by 30%, increasing accuracy and the timeliness of infrastructure planning deliverables."
+  },
+  {
+    "objectID": "resume.html#section-2",
+    "href": "resume.html#section-2",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Planning Technician Intern, Physical Planning Department, Ghana\n- Reviewed architectural and construction drawings and administered updates to ArcGIS Online utility asset data, improving municipal geodatabase accuracy for permitting and asset management. - Reviewed and assessed 25+ development permits and conducted field inspections to verify project compliance with zoning bylaws and land-use policies, resulting in streamlined approval timelines and increased adherence to planning standards.\n- Contributed to the design and production of spatial and settlement structure plans and high-resolution thematic maps for the Jirapa Municipality that guided policy recommendations and land use zoning aligned with municipal growth strategies using QGIS and ArcGIS\n\nquarto clean"
+  },
+  {
+    "objectID": "resume.html#present",
+    "href": "resume.html#present",
+    "title": "Work Experience",
+    "section": "",
+    "text": "GIS Technician Intern, Social Planning Cowichan (SPC), Duncan, British Columbia\n- Process LiDAR data and satellite imagery using Python, ArcGIS Pro and QGIS to analyze land use change and support Indigenous-led cedar ecosystem restoration across the Cowichan, Koksilah, and Chemainus watersheds.\n- Lead the development of a custom mobile mapping app (Xpey’ Watch) using Python scripting and ArcGIS Online tools to automate field data collection and streamline stakeholder access to localized environmental datasets\n- Maintain ArcGIS Online spatial data infrastructure, perform QA/QC and update feature layers, manage metadata and enforce topological rules to ensure accuracy and integrity of utility and planning asset data."
+  },
+  {
+    "objectID": "work-experience.html",
+    "href": "work-experience.html",
+    "title": "Work Experience",
+    "section": "",
+    "text": "GIS Technician Intern, Social Planning Cowichan (SPC), Duncan, British Columbia\nProcess LiDAR data and satellite imagery using Python, ArcGIS Pro and QGIS to analyze land use change and support Indigenous-led cedar ecosystem restoration across the Cowichan, Koksilah, and Chemainus watersheds.\nLead the development of a custom mobile mapping app (Xpey’ Watch) using Python scripting and ArcGIS Online tools to automate field data collection and streamline stakeholder access to localized environmental datasets.\nMaintain ArcGIS Online spatial data infrastructure, perform QA/QC and update feature layers, manage metadata and enforce topological rules to ensure accuracy and integrity of utility and planning asset data.\n\n\n\nMGEM Capstone Researcher, University of British Columbia\nConducted shade mapping and 3D modeling of tree canopy using LiDAR and satellite data to assess its influence on building energy use on the UBC campus.\nCreated spatial models identifying priority areas for tree planting, improving urban climate resilience and contributing to a 10% increase in green space allocation.\n\n\n\nJunior Technical Advisor (Contract), German Development Cooperation (GIZ), Ghana\nProduced high-quality maps and interactive ArcGIS Dashboards to track municipal-scale land use patterns, zoning designations, and utility infrastructure projects which enhanced client decision-making.\nCo-developed an e-learning platform and geospatial data library to enhance municipal level planning, infrastructure data sharing long-term capacity-building of planning technicians, improving consistency in infrastructure reporting.\nAutomated spatial data workflows using Python, SQL and Model Builder to enhance geoprocessing efficiency by 30%, increasing accuracy and the timeliness of infrastructure planning deliverable.\n\n\n\nPlanning Technician Intern, Physical Planning Department, Ghana\nReviewed architectural and construction drawings and administered updates to ArcGIS Online utility asset data, improving municipal geodatabase accuracy for permitting and asset management. Reviewed and assessed 25+ development permits and conducted field inspections to verify project compliance with zoning bylaws and land-use policies, resulting in streamlined approval timelines and increased adherence to planning standards. Contributed to the design and production of spatial and settlement structure plans and high-resolution thematic maps for the Jirapa Municipality that guided policy recommendations and land use zoning aligned with municipal growth strategies using QGIS and ArcGIS"
+  },
+  {
+    "objectID": "work-experience.html#present",
+    "href": "work-experience.html#present",
+    "title": "Work Experience",
+    "section": "",
+    "text": "GIS Technician Intern, Social Planning Cowichan (SPC), Duncan, British Columbia\nProcess LiDAR data and satellite imagery using Python, ArcGIS Pro and QGIS to analyze land use change and support Indigenous-led cedar ecosystem restoration across the Cowichan, Koksilah, and Chemainus watersheds.\nLead the development of a custom mobile mapping app (Xpey’ Watch) using Python scripting and ArcGIS Online tools to automate field data collection and streamline stakeholder access to localized environmental datasets.\nMaintain ArcGIS Online spatial data infrastructure, perform QA/QC and update feature layers, manage metadata and enforce topological rules to ensure accuracy and integrity of utility and planning asset data."
+  },
+  {
+    "objectID": "work-experience.html#section",
+    "href": "work-experience.html#section",
+    "title": "Work Experience",
+    "section": "",
+    "text": "MGEM Capstone Researcher, University of British Columbia\nConducted shade mapping and 3D modeling of tree canopy using LiDAR and satellite data to assess its influence on building energy use on the UBC campus.\nCreated spatial models identifying priority areas for tree planting, improving urban climate resilience and contributing to a 10% increase in green space allocation."
+  },
+  {
+    "objectID": "work-experience.html#section-1",
+    "href": "work-experience.html#section-1",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Junior Technical Advisor (Contract), German Development Cooperation (GIZ), Ghana\nProduced high-quality maps and interactive ArcGIS Dashboards to track municipal-scale land use patterns, zoning designations, and utility infrastructure projects which enhanced client decision-making.\nCo-developed an e-learning platform and geospatial data library to enhance municipal level planning, infrastructure data sharing long-term capacity-building of planning technicians, improving consistency in infrastructure reporting.\nAutomated spatial data workflows using Python, SQL and Model Builder to enhance geoprocessing efficiency by 30%, increasing accuracy and the timeliness of infrastructure planning deliverable."
+  },
+  {
+    "objectID": "work-experience.html#section-2",
+    "href": "work-experience.html#section-2",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Planning Technician Intern, Physical Planning Department, Ghana\nReviewed architectural and construction drawings and administered updates to ArcGIS Online utility asset data, improving municipal geodatabase accuracy for permitting and asset management. Reviewed and assessed 25+ development permits and conducted field inspections to verify project compliance with zoning bylaws and land-use policies, resulting in streamlined approval timelines and increased adherence to planning standards. Contributed to the design and production of spatial and settlement structure plans and high-resolution thematic maps for the Jirapa Municipality that guided policy recommendations and land use zoning aligned with municipal growth strategies using QGIS and ArcGIS"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "Kuugaayeng, I. (2025). The Impact of Tree Shade on Building Cooling Energy Demand During Summer. UBC SEEDS Sustainability Program. View Report"
+  },
+  {
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "Kuugaayeng, I. (2025). The Impact of Tree Shade on Building Cooling Energy Demand During Summer. UBC SEEDS Sustainability Program. View Report"
+  },
+  {
+    "objectID": "publications.html#publications-1",
+    "href": "publications.html#publications-1",
+    "title": "Isaac Kuugaayeng",
+    "section": "Publications",
+    "text": "Publications\nKuugaayeng, I. (2025). The Impact of Tree Shade on Building Cooling Energy Demand During Summer. UBC SEEDS Sustainability Program. View Report"
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "LiDAR, which stands for Light Detection and Ranging, is a remote sensing technology that measures highly accurate distances by emitting laser pulses onto the Earth’s surface to create 3D maps of objects and landscapes (Park et al., 2023; Roussel et al., 2020). This technology provides precise three-dimensional data about topography and surface features (Tooke et al., 2009).\nIn forestry, LiDAR is commonly used for mapping and assessing forests, including estimating tree heights and canopy structures (Roussel et al., 2020). In urban planning, it supports applications such as land use planning and infrastructure development (Dawood et al., 2017).\n Figure 1: Tree detection using LiDAR (GIF demo).\n Figure 2: Individual tree identification workflow using LiDAR."
+  },
+  {
+    "objectID": "content.html#leaflet",
+    "href": "content.html#leaflet",
+    "title": "LiDAR Tools",
+    "section": "",
+    "text": "Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here."
+  },
+  {
+    "objectID": "content.html#code-snippets",
+    "href": "content.html#code-snippets",
+    "title": "LiDAR Tools",
+    "section": "",
+    "text": "Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)"
+  },
+  {
+    "objectID": "content.html#external-links",
+    "href": "content.html#external-links",
+    "title": "LiDAR Tools",
+    "section": "",
+    "text": "You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+  },
+  {
+    "objectID": "content.html#types-of-lidar",
+    "href": "content.html#types-of-lidar",
+    "title": "Isaac Kuugaayeng",
+    "section": "Types of LiDAR",
+    "text": "Types of LiDAR\nLiDAR systems are broadly categorized into two main types: Discrete Return LiDAR and Full Waveform LiDAR. Each type collects data differently and serves distinct purposes depending on the application.\nDiscrete Return LiDAR, commonly used in terrestrial and airborne surveys, captures distinct return points from each laser pulse, producing a 3D point cloud of the scanned environment.\nFull Waveform LiDAR records the entire energy profile of the returning signal, offering a continuous vertical representation of surfaces, which is especially useful for analyzing complex vegetation structures or terrain in satellite-based applications."
+  },
+  {
+    "objectID": "content.html#types-of-lidar-systems",
+    "href": "content.html#types-of-lidar-systems",
+    "title": "Isaac Kuugaayeng",
+    "section": "Types of LiDAR Systems",
+    "text": "Types of LiDAR Systems\n\n\n✈️ Airborne LiDAR Mounted on drones or aircraft to map forests and terrain from above.\n\n\n🌲 Terrestrial LiDAR Stationary ground-based scanners used for capturing tree trunks and structural details.\n\n\n🛰️ Spaceborne LiDAR Satellite-based systems used for global ecosystem monitoring and elevation mapping.\n\n\n🚗 Mobile LiDAR Mounted on vehicles or backpacks for scanning roads and built environments while in motion.\n\n\n\n Figure 3: Types of LiDAR from Salas (2021)."
+  },
+  {
+    "objectID": "content.html#types-of-lidar-systems-1",
+    "href": "content.html#types-of-lidar-systems-1",
+    "title": "Isaac Kuugaayeng",
+    "section": "Types of LiDAR Systems",
+    "text": "Types of LiDAR Systems\n\n\n R (lidR package)\nThe lidR package is a free and open-source tool in R for processing and analyzing LiDAR data. It was developed by Jean-Romain Roussel and is widely used in forestry and ecology.\n\n\nPython (PDAL)\nPDAL (Point Data Abstraction Library) is a powerful open-source library, similar to GDAL, that’s been gaining popularity for LiDAR processing. It’s built in C/C++ but offers a robust Python interface. PDAL uses a pipeline system written in JSON, making it highly customizable for different processing needs.\n\n\nCloudCompare\nCloudCompare is an open-source tool designed for viewing, editing, and processing point clouds. While it’s not as fast as LAStools for processing, it’s much more interactive and user-friendly. I personally find it especially useful for tasks like georeferencing LiDAR datasets, and it’s one of the easiest programs for navigating and exploring point clouds visually.\n\n\nLAStools\nwas one of the first major players in the lidar data processing world. It is one of the best available options for processing large quantities of data very efficiently. Historically it was a purely command line-based software program, and for complex data pipelines (and making LAStools calls from R, Python, etc.) the command line interface is still preferable. However, they have made strides towards making things a little more user friendly with GUIs. To access the full functionality of LAStools does require a license, but several of the tools are free to use."
+  },
+  {
+    "objectID": "content.html#lidar-tools",
+    "href": "content.html#lidar-tools",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "LiDAR, which stands for Light Detection and Ranging, is a remote sensing technology that measures highly accurate distances by emitting laser pulses onto the Earth’s surface to create 3D maps of the target objects and landscapes (Park et al., 2023; Roussel et al., 2020). This technology provides precise and detailed three-dimensional data about topography and surface features (Tooke et al., 2009). In forestry, LiDAR is commonly used for forest mapping and assessment (Roussel et al., 2020), while in urban planning, it supports applications such as land use planning and infrastructure development (Dawood et al., 2017)."
+  },
+  {
+    "objectID": "content.html#section",
+    "href": "content.html#section",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "Types of LiDAR Systems \n\n✈️ Airborne LiDAR\nMounted on drones or aircraft to map forests and terrain from above.\n\n\n🌲 Terrestrial LiDAR\nStationary ground-based scanners used for capturing tree trunks and structural details.\n\n\n🛰️ Spaceborne LiDAR\nSatellite-based systems used for global ecosystem monitoring and elevation mapping.\n\n\n🚗 Mobile LiDAR\nMounted on vehicles or backpacks for scanning roads and built environments while in motion."
+  },
+  {
+    "objectID": "content.html#how-does-lidar-work",
+    "href": "content.html#how-does-lidar-work",
+    "title": "Isaac Kuugaayeng",
+    "section": "How Does LiDAR Work",
+    "text": "How Does LiDAR Work\nLiDAR works by emitting laser pulses from a sensor mounted on an aircraft or ground-based device. These laser pulses interact with objects and the Earth’s surface and then bounce back to the sensor. By precisely measuring the time it takes for the laser pulses to return, LiDAR can calculate the distance between the sensor and the objects or the ground surface.\nLiDAR creates a detailed 3D map of the surveyed area, including terrain, vegetation, buildings, and other objects. This data is valuable for various applications, including forestry (like estimating tree heights and canopy structure), urban planning, flood modeling, and more. LiDAR technology provides highly accurate and detailed structural information, making it essential for many scientific and environmental studies.\nThe most common format for discrete-return LiDAR point cloud data is a LAZ file (e.g., lidar_data.laz). LAZ files are a lossless compression of LAS files, which was the industry standard LiDAR data format for a long time. LAS files are still used somewhat, but given the vastly reduced file sizes of LAZ, LAZ has largely replaced LAS."
+  },
+  {
+    "objectID": "content.html#the-lidr-package",
+    "href": "content.html#the-lidr-package",
+    "title": "Isaac Kuugaayeng",
+    "section": "The lidR Package",
+    "text": "The lidR Package"
+  },
+  {
+    "objectID": "content.html#common-tools-for-processing-lidar",
+    "href": "content.html#common-tools-for-processing-lidar",
+    "title": "Isaac Kuugaayeng",
+    "section": "Common Tools for Processing LiDAR",
+    "text": "Common Tools for Processing LiDAR\n\n\n R (lidR package) The lidR package is a free and open-source tool in R for processing and analyzing LiDAR data. It supports point cloud filtering, tree detection, DTM/CHM generation, and forest metrics.\n\n\n🐍 Python (PDAL) PDAL (Point Data Abstraction Library) is a powerful open-source library, similar to GDAL. It’s built in C/C++ but offers a robust Python interface. PDAL uses a pipeline system written in JSON, making it highly customizable.\n\n\n CloudCompare CloudCompare is an open-source tool designed for viewing, editing, and processing point clouds. It’s user-friendly and highly interactive, making it ideal for visual exploration of point clouds.\n\n\nLAStools This tool is ideal for efficiently processing large quantities of LiDAR data. It supports both command-line and GUI workflows, and it’s often used for automated pipelines."
+  },
+  {
+    "objectID": "content.html#common-tools-for-processing-lidar-1",
+    "href": "content.html#common-tools-for-processing-lidar-1",
+    "title": "Isaac Kuugaayeng",
+    "section": "Common Tools for processing LiDAR",
+    "text": "Common Tools for processing LiDAR\n\n\nCloudCompare\nCloudCompare is an open-source tool designed for viewing, editing, and processing point clouds. While it’s not as fast as LAStools for processing, it’s much more interactive and user-friendly. I personally find it especially useful for tasks like georeferencing LiDAR datasets, and it’s one of the easiest programs for navigating and exploring point clouds visually.\n\n\nLAStools\nwas one of the first major players in the lidar data processing world. It is one of the best available options for processing large quantities of data very efficiently. Historically it was a purely command line-based software program, and for complex data pipelines (and making LAStools calls from R, Python, etc.) the command line interface is still preferable. However, they have made strides towards making things a little more user friendly with GUIs. To access the full functionality of LAStools does require a license, but several of the tools are free to use."
+  },
+  {
+    "objectID": "content.html#lidar-tools-and-workflows",
+    "href": "content.html#lidar-tools-and-workflows",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "LiDAR, which stands for Light Detection and Ranging, is a remote sensing technology that measures highly accurate distances by emitting laser pulses onto the Earth’s surface to create 3D maps of objects and landscapes (Park et al., 2023; Roussel et al., 2020). This technology provides precise three-dimensional data about topography and surface features (Tooke et al., 2009).\nIn forestry, LiDAR is commonly used for mapping and assessing forests, including estimating tree heights and canopy structures (Roussel et al., 2020). In urban planning, it supports applications such as land use planning and infrastructure development (Dawood et al., 2017).\n Figure 1: Tree detection using LiDAR (GIF demo).\n Figure 2: Individual tree identification workflow using LiDAR."
+  },
+  {
+    "objectID": "content.html#interactive-examples",
+    "href": "content.html#interactive-examples",
+    "title": "LiDAR Tools",
+    "section": "Interactive Examples",
+    "text": "Interactive Examples\n\n🟢 Add your two .gif animations here. You can do so like this:\n\n``markdown ![Tree segmentation process](images/tree-segmentation.gif){width=\"100%\"} &lt;span class=\"figure-caption\"&gt;Figure 2: Tree segmentation using thelidR` package in R.\n Figure 3: Generating a canopy height model (CHM) using LiDAR data."
+  }
+]

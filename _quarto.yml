@@ -1,19 +1,18 @@
-project:
+project: 
   type: website
-  output-dir: C:/Users/melser/Documents/GitHub/E-Portfolio
 
 website:
-  title: "Your E-Portfolio"
+  title: "Isaac Kuugaayeng"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: resume.qmd
-        text: Resume
+      - href: work-experience.qmd
+        text: Work Experience
       - href: publications.qmd
         text: Publications
       - href: content.qmd
-        text: Content & Deliverables
+        text: Content
 
 format:
   html:
@@ -22,4 +21,3 @@ format:
     toc: true
 
 editor: visual
-

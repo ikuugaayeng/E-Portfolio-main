@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My E-Portfolio",
+    "title": "Isaac Kuugaayeng",
     "section": "",
-    "text": "Hey there people,\nThis is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.\nWrite something about myself, very exciting."
+    "text": "&lt;img src=\"images/headshot.jpg\" alt=\"Isaac Kuugaayeng\" class=\"profile-img\" /&gt;\n&lt;h2&gt;Isaac Kuugaayeng&lt;/h2&gt;\n\n&lt;div class=\"social-icons\"&gt;\n  &lt;a href=\"https://www.linkedin.com/in/isaac-k/\" target=\"_blank\"&gt;&lt;i class=\"bi bi-linkedin\"&gt;&lt;/i&gt;&lt;/a&gt;\n  &lt;a href=\"https://x.com/ikuugaayeng\" target=\"_blank\"&gt;&lt;i class=\"bi bi-twitter-x\"&gt;&lt;/i&gt;&lt;/a&gt;\n  &lt;a href=\"https://github.com/ikuugaayeng\" target=\"_blank\"&gt;&lt;i class=\"bi bi-github\"&gt;&lt;/i&gt;&lt;/a&gt;\n  &lt;a href=\"mailto:isaac020@student.ubc.ca\"&gt;&lt;i class=\"bi bi-envelope\"&gt;&lt;/i&gt;&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"nav-buttons\"&gt;\n  &lt;a href=\"index.html\" class=\"btn\"&gt;Home&lt;/a&gt;\n  &lt;a href=\"resume.html\" class=\"btn\"&gt;Work Experience&lt;/a&gt;\n  &lt;a href=\"publications.html\" class=\"btn\"&gt;Publications&lt;/a&gt;\n  &lt;a href=\"content.html\" class=\"btn\"&gt;Content&lt;/a&gt;\n&lt;/div&gt;\n\n\n\n## Bio\nI am a recent graduate of the Master of Geomatics for Environmental Management (MGEM) program at the University of British Columbia (UBC), where my research focused on shade mapping of trees and buildings to support urban climate adaptation. I used LiDAR, satellite imagery, and 3D spatial models to assess tree shade coverage and prioritize areas for nature-based solutions in urban planning.\nCurrently, I work as a GIS Technician Intern at Social Planning Cowichan, supporting the Cedar Project—an Indigenous-led initiative to restore and protect cedar ecosystems in the Cowichan Valley. I specialize in spatial analysis, map design, LiDAR processing, GPS integration, and custom mobile mapping applications.\nWith prior experience supporting municipal and regional planning projects in both Canada and Ghana, I am passionate about using GIS to inform sustainable land use, infrastructure planning, and climate resilience strategies.\n## Recent Publications\n\nUsing LiDAR to Map Urban Shade for Climate Adaptation\nIsaac Kuugaayeng, Dr. Nicholas Coops\nUBC, MGEM Capstone 2024\n\nGIS Applications in Indigenous-Led Watershed Planning\nIsaac Kuugaayeng, Social Planning Cowichan\nOngoing Research 2025"
   },
   {
     "objectID": "resume.html",
@@ -54,5 +54,12 @@
     "title": "Content & Deliverables",
     "section": "",
     "text": "You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Isaac Kuugaayeng",
+    "section": "",
+    "text": "I am a recent graduate of the Master of Geomatics for Environmental Management (MGEM) program at the University of British Columbia (UBC), where my research focused on shade mapping of trees and buildings to support urban climate adaptation. I used LiDAR, satellite imagery, and 3D spatial models to assess tree shade coverage and prioritize areas for nature-based solutions in urban planning.\nCurrently, I work as a GIS Technician Intern at Social Planning Cowichan, supporting the Cedar Project—an Indigenous-led initiative to restore and protect cedar ecosystems in the Cowichan Valley. I specialize in spatial analysis, map design, LiDAR processing, GPS integration, and custom mobile mapping applications.\nWith prior experience supporting municipal and regional planning projects in both Canada and Ghana, I am passionate about using GIS to inform sustainable land use, infrastructure planning, and climate resilience strategies."
   }
 ]

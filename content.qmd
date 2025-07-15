@@ -1,76 +1,100 @@
 ---
-title: "Content & Deliverables"
-format: html
 editor: visual
 ---
 
-# Project 1 - Capstone Deliverables
+## [LiDAR Tools and Workflows]{.highlight-blue}
 
-This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen ("On this page").
+::::: row
+::: col-md-7
+LiDAR, which stands for <strong class="highlight-blue">Light Detection and Ranging</strong>, is a remote sensing technology that measures highly accurate distances by emitting laser pulses onto the Earth's surface to create 3D maps of objects and landscapes (Park et al., 2023; Roussel et al., 2020). This technology provides precise three-dimensional data about topography and surface features (Tooke et al., 2009).
 
-If you've produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.
+In forestry, LiDAR is commonly used for <strong class="highlight-blue">mapping and assessing forests</strong>, including estimating tree heights and canopy structures (Roussel et al., 2020). In urban planning, it supports applications such as land use planning and infrastructure development (Dawood et al., 2017).
 
-## Leaflet
+![Tree Detection](images/tree-detection.gif){width="40%"} [Figure 1: Tree detection using LiDAR (GIF demo).]{.figure-caption}
 
-Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page [here](https://ubc-mgem-fcor599.github.io/FCOR-599-Workshops/Interactive_Maps/leaflet.html).
-
-```{r leaflet, include = FALSE}
-library(dplyr); library(leaflet)
-
-m <- leaflet() %>%
-  addProviderTiles("Esri.WorldImagery") %>%
-  addScaleBar(position = c("bottomleft")) %>%
-  setView(-123.1207, 49.2827, zoom = 11)
-
-```
-
-```{r map, echo=FALSE}
-m
-```
-
-## Code Snippets
-
-Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a 'tabset' in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let's showcase a function for calculating NDVI in R and Python.
-
-::: {.panel-tabset group="language"}
-## R
-
-``` (.r)
-calc_ndvi <- function(nir, red){
-  ndvi <- (nir-red)/(nir+red)
-  return(ndvi)
-}
-```
-
-(Assuming *nir* and *red* are terra rast objects)
-
-## Python
-
-``` (.python)
-def calc_ndvi(nir, red): 
-  ndvi = (nir - red)/(nir + red)
-  return(ndvi)
-```
-
-(Assuming *nir* and *red* are numpy arrays)
+![Individual Tree Detection](images/individual-tree-detection.gif){width="40%"} [Figure 2: Individual tree identification workflow using LiDAR.]{.figure-caption}
 :::
+:::::
 
-## External links
+------------------------------------------------------------------------
 
-You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:
+## [Types of LiDAR]{.highlight-blue}
 
-```{code}
+LiDAR systems are broadly categorized into two main types: <strong class="highlight-blue">Discrete Return LiDAR</strong> and <strong class="highlight-blue">Full Waveform LiDAR</strong>. Each type collects data differently and serves distinct purposes depending on the application.
 
-<iframe width="900" height="700"
-src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool">
-</iframe>
-```
+<strong class="highlight-blue">Discrete Return LiDAR</strong>, commonly used in terrestrial and airborne surveys, captures distinct return points from each laser pulse, producing a 3D point cloud of the scanned environment.
 
-The full-screen GEE application is available [here](https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool) in case you're interested.
+<strong class="highlight-blue">Full Waveform LiDAR</strong> records the entire energy profile of the returning signal, offering a continuous vertical representation of surfaces, which is especially useful for analyzing complex vegetation structures or terrain in satellite-based applications.
 
-(To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
+------------------------------------------------------------------------
 
+## [Types of LiDAR Systems]{.highlight-blue}
 
-```{=html}
-<iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
-```
+::::::: lidar-grid
+<div>
+
+<strong class="highlight-blue">✈️ Airborne LiDAR</strong><br> Mounted on drones or aircraft to map forests and terrain from above.
+
+</div>
+
+<div>
+
+<strong class="highlight-blue">🌲 Terrestrial LiDAR</strong><br> Stationary ground-based scanners used for capturing tree trunks and structural details.
+
+</div>
+
+<div>
+
+<strong class="highlight-blue">🛰️ Spaceborne LiDAR</strong><br> Satellite-based systems used for global ecosystem monitoring and elevation mapping.
+
+</div>
+
+<div>
+
+<strong class="highlight-blue">🚗 Mobile LiDAR</strong><br> Mounted on vehicles or backpacks for scanning roads and built environments while in motion.
+
+</div>
+:::::::
+
+::: col-md-5
+![LiDAR point cloud](images/lidar.jpg){width="40%"} [Figure 3: Types of LiDAR from Salas (2021).]{.figure-caption}
+:::
+------------------------------------------------------------------------
+
+## [How Does LiDAR Work]{.highlight-blue}
+
+LiDAR works by emitting laser pulses from a sensor mounted on an aircraft or ground-based device. These laser pulses interact with objects and the Earth's surface and then bounce back to the sensor. By precisely measuring the time it takes for the laser pulses to return, LiDAR can calculate the distance between the sensor and the objects or the ground surface.
+
+LiDAR creates a detailed 3D map of the surveyed area, including terrain, vegetation, buildings, and other objects. This data is valuable for various applications, including forestry (like estimating tree heights and canopy structure), urban planning, flood modeling, and more. LiDAR technology provides highly accurate and detailed structural information, making it essential for many scientific and environmental studies.
+
+The most common format for discrete-return LiDAR point cloud data is a **LAZ** file (e.g., `lidar_data.laz`). LAZ files are a lossless compression of **LAS** files, which was the industry standard LiDAR data format for a long time. LAS files are still used somewhat, but given the vastly reduced file sizes of LAZ, LAZ has largely replaced LAS.
+
+------------------------------------------------------------------------
+
+## [Common Tools for Processing LiDAR]{.highlight-blue}
+
+::::::: lidar-grid
+<div>
+
+![clipboard](images/clipboard-3247262995.png){width="32"} <strong class="highlight-blue">R (lidR package)</strong><br> The `lidR` package is a free and open-source tool in R for processing and analyzing LiDAR data. It supports point cloud filtering, tree detection, DTM/CHM generation, and forest metrics.
+
+</div>
+
+<div>
+
+<strong class="highlight-blue">🐍 Python (PDAL)</strong><br> PDAL (Point Data Abstraction Library) is a powerful open-source library, similar to GDAL. It’s built in C/C++ but offers a robust Python interface. PDAL uses a pipeline system written in JSON, making it highly customizable.
+
+</div>
+
+<div>
+
+![clipboard](images/clipboard-3682771675.png){width="37"} <strong class="highlight-blue">CloudCompare</strong><br> CloudCompare is an open-source tool designed for viewing, editing, and processing point clouds. It's user-friendly and highly interactive, making it ideal for visual exploration of point clouds.
+
+</div>
+
+<div>
+
+<strong class="highlight-blue">LAStools</strong><br> This tool is ideal for efficiently processing large quantities of LiDAR data. It supports both command-line and GUI workflows, and it's often used for automated pipelines.
+
+</div>
+:::::::

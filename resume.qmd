@@ -1,39 +1,42 @@
 ---
-title: "Resume"
+title: "Work Experience"
+format:
+  html:
+    page-layout: full
+    css: styles.css
+    toc: false
 ---
 
-# Education
+# Work Experience
 
--   List your education here.
+## Present
 
-# Publications
+**GIS Technician Intern**, Social Planning Cowichan (SPC), Duncan, British Columbia  
+- Process LiDAR data and satellite imagery using Python, ArcGIS Pro and QGIS to analyze land use change and support Indigenous-led cedar ecosystem restoration across the Cowichan, Koksilah, and Chemainus watersheds.  
+- Lead the development of a custom mobile mapping app (Xpey’ Watch) using Python scripting and ArcGIS Online tools to automate field data collection and streamline stakeholder access to localized environmental datasets  
+- Maintain ArcGIS Online spatial data infrastructure, perform QA/QC and update feature layers, manage metadata and enforce topological rules to ensure accuracy and integrity of utility and planning asset data.
 
-*Peer-reviewed publications:*
+## 2024
 
--   List any peer-reviewed publications here.
+**MGEM Capstone Researcher**, University of British Columbia  
+- Conducted shade mapping and 3D modeling of tree canopy using LiDAR and satellite data to assess its influence on building energy use on the UBC campus.  
+- Created spatial models identifying priority areas for tree planting, improving urban climate resilience and contributing to a 10% increase in green space allocation.
 
-*Reports:*
+## 2022
 
--   List any non-peer reviewed materials you'd like to share here.
+**Junior Technical Advisor (Contract)**, German Development Cooperation (GIZ), Ghana  
+- Produced high-quality maps and interactive ArcGIS Dashboards to track municipal-scale land use patterns, zoning designations, and utility infrastructure projects which enhanced client decision-making  
+- Co-developed an e-learning platform and geospatial data library to enhance municipal level planning, infrastructure data sharing long-term capacity-building of planning technicians, improving consistency in infrastructure reporting  
+- 	Automated spatial data workflows using Python, SQL and Model Builder to enhance geoprocessing efficiency by 30%, increasing accuracy and the timeliness of infrastructure planning deliverables.
 
-# Conferences & Talks
+## 2021
 
-*Invited Talks*
+**Planning Technician Intern**, Physical Planning Department, Ghana  
+- Reviewed architectural and construction drawings and administered updates to ArcGIS Online utility asset data, improving municipal geodatabase accuracy for permitting and asset management. 
+- Reviewed and assessed 25+ development permits and conducted field inspections to verify project compliance with zoning bylaws and land-use policies, resulting in streamlined approval timelines and increased adherence to planning standards.  
+- Contributed to the design and production of spatial and settlement structure plans and high-resolution thematic maps for the Jirapa Municipality that guided policy recommendations and land use zoning aligned with municipal growth strategies using QGIS and ArcGIS
 
--   If you've been invited to speak in a professional setting, list that here.
+---
 
-*Conference Presentations*
+quarto clean
 
--   If the presentation was at a conference, list them here.
-
-# Awards & Honors
-
--   List any scholarships, bursaries, etc.
-
-# Teaching Assistantships
-
--   List any TA positions you may have held.
-
-# Institutional Service
-
--   Volunteering etc.

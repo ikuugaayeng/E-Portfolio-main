@@ -1,26 +1,68 @@
 ---
-title: "My E-Portfolio"
-image: images/MGEM_logo.png
-about:
-  template: trestles
-  image-width: 20em
-  links: 
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/MelserRamon
-    - icon: github
-      text: GitHub
-      href: https://github.com/ramonmelser
-    - icon: envelope-at
-      text: Email
-      href: mailto:melser@student.ubc.ca
+format:
+  html:
+    page-layout: full
+    css: styles.css
+    toc: false
 ---
 
-Hey there people,
+::: {.container}
 
-This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.
+::: {.sidebar}
+![](images/headshot.jpg){.profile-img}
 
-Write something about myself, very exciting.
+## Isaac Kuugaayeng
+
+[![](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/isaac-k/)  
+[![](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&style=for-the-badge)](https://x.com/ikuugaayeng)  
+[![](https://img.shields.io/badge/GitHub-181717?logo=github&style=for-the-badge)](https://github.com/ikuugaayeng)  
+[![](https://img.shields.io/badge/Email-white?logo=gmail&style=for-the-badge&logoColor=red)](mailto:isaac020@student.ubc.ca)
+
+---
+
+[Home](index.qmd){.btn}  
+[Work Experience](resume.qmd){.btn}  
+[Publications](publications.qmd){.btn}  
+[Content](content.qmd){.btn}
+:::
+
+::: {.main-content}
+
+## Bio
+
+I am a recent graduate of the Master of Geomatics for Environmental Management (MGEM) program at the University of British Columbia (UBC), where my research focused on shade mapping of trees and buildings to support urban climate adaptation. I used LiDAR, satellite imagery, and 3D spatial models to assess tree shade coverage and prioritize areas for nature-based solutions in urban planning.
+
+Currently, I work as a GIS Technician Intern at Social Planning Cowichan, supporting the Cedar Project—an Indigenous-led initiative to restore and protect cedar ecosystems in the Cowichan Valley. I specialize in spatial analysis, map design, LiDAR processing, GPS integration, and custom mobile mapping applications.
+
+With prior experience supporting municipal and regional planning projects in both Canada and Ghana, I am passionate about using GIS to inform sustainable land use, infrastructure planning, and climate resilience strategies.
+
+## Recent Projects and Publications
+
+<div class="pub-row">
+
+<div class="pub-card">
+<h3><a href="https://sustain.ubc.ca/sites/default/files/seedslibrary/Final%20Report%20Impact%20of%20Tree%20Shade%20on%20Building%20Cooling%20Energy%20Demand%20in%20Summer.pdf" target="_blank">The Impact of Tree Shade on Building Cooling Energy Demand During Summer</a></h3>
+<p><strong>Isaac Kuugaayeng, Dr. Nicholas Coops</strong></p>
+<p><em>UBC, MGEM Capstone 2024</em></p>
+<p><strong>Abstract</strong></p>
+<p>
+The upsurge of climate change has exacerbated urban heat island (UHI) effect, leading to severe consequences for human health, urban livability, and energy demand. Rising temperatures significantly increase the demand for cooling energy, as the cooling load of buildings is heavily influenced by the amount of solar radiation reaching their surfaces. One of the most effective and sustainable strategies is urban greening. These interventions can take various forms, including street trees, urban parks, and vegetation surrounding buildings, all of which contribute to heat relief and improved urban resilience. Trees offer a wide range of ecosystem benefits that improve the climate and habitability of cities, including public spaces, by acting as natural shading and wind-shielding elements around buildings. By blocking solar radiation, trees help lower the energy needed for cooling, especially in buildings with poor window-to-wall ratios.
+This project contributes to NCAP's goals by quantifying tree shade on buildings on UBC campus and analyzing its impact on building energy demand. Using high-resolution LiDAR data and sun position data, a Digital Surface Model (DSM) was created to represent campus elevation, and hillshade analysis was employed to simulate shade coverage at 15-minute intervals. 
+
+</p>
+</div>
+
+<div class="pub-card">
+<h3><a href="#">Multi-Criteria Suitability Analysis of Sites for Western Redcedar Across the Cowichan, Koksilah, and Chemainus Watersheds</a></h3>
+<p><strong>Isaac Kuugaayeng</strong></p>
+<p><em>Social Planning Cowichan, Ongoing Project</em></p>
+<p><strong>Abstract</strong></p>
+<p>
+Western Redcedar (Thuja plicata), an ecologically and culturally significant tree species in British Columbia, is increasingly threatened by climate stress, particularly prolonged droughts and soil moisture loss. This study aims to identify suitable planting sites for Western Redcedar across the Cowichan, Koksilah, and Chemainus River watersheds using a GIS-based Multi-Criteria Decision Analysis (MCDA). Five key environmental variables including elevation, slope, aspect, topographic wetness index (TWI), and soil conditions were assessed based on ecological relevance and processed into standardized raster layers. Each factor was reclassified into three suitability classes (Poor, Moderate, Good), and equally weighted. A composite suitability map was produced using a threshold approach, where areas meeting at least four out of five high-suitability criteria were classified as the suitable sites that support the growth redcedar. The resulting map highlights micro-sites that can support healthy cedar growth despite changing climate conditions. This work provides a valuable decision-support tool for conservation planner and Indigenous communities seeking to implement climate-adaptive forestry strategies and restore declining redcedar populations.
+</p>
+</div>
+
+</div>
+
+:::
+:::

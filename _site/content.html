@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>My E-Portfolio – Your E-Portfolio</title>
+<title>content – Isaac Kuugaayeng</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Your E-Portfolio</span>
+    <span class="navbar-title">Isaac Kuugaayeng</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -88,20 +89,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume.html"> 
-<span class="menu-text">Resume</span></a>
+    <a class="nav-link" href="./work-experience.html"> 
+<span class="menu-text">Work Experience</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content.html"> 
-<span class="menu-text">Content &amp; Deliverables</span></a>
+    <a class="nav-link active" href="./content.html" aria-current="page"> 
+<span class="menu-text">Content</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -114,47 +115,93 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lidar-tools-and-workflows" id="toc-lidar-tools-and-workflows" class="nav-link active" data-scroll-target="#lidar-tools-and-workflows"><span class="highlight-blue">LiDAR Tools and Workflows</span></a></li>
+  <li><a href="#types-of-lidar" id="toc-types-of-lidar" class="nav-link" data-scroll-target="#types-of-lidar"><span class="highlight-blue">Types of LiDAR</span></a></li>
+  <li><a href="#types-of-lidar-systems" id="toc-types-of-lidar-systems" class="nav-link" data-scroll-target="#types-of-lidar-systems"><span class="highlight-blue">Types of LiDAR Systems</span></a></li>
+  <li><a href="#how-does-lidar-work" id="toc-how-does-lidar-work" class="nav-link" data-scroll-target="#how-does-lidar-work"><span class="highlight-blue">How Does LiDAR Work</span></a></li>
+  <li><a href="#common-tools-for-processing-lidar" id="toc-common-tools-for-processing-lidar" class="nav-link" data-scroll-target="#common-tools-for-processing-lidar"><span class="highlight-blue">Common Tools for Processing LiDAR</span></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/MGEM_logo.png" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">My E-Portfolio</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/ramon-melser-666932129/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://x.com/MelserRamon" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter/X</span>
-  </a>
-  <a href="https://github.com/ramonmelser" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:melser@student.ubc.ca" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Hey there people,</p>
-<p>This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.</p>
-<p>Write something about myself, very exciting.</p>
+<main class="content" id="quarto-document-content">
 
 
-</main></div>
+
+
+<section id="lidar-tools-and-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="lidar-tools-and-workflows"><span class="highlight-blue">LiDAR Tools and Workflows</span></h2>
+<div class="row">
+<div class="col-md-7">
+<p>LiDAR, which stands for <strong class="highlight-blue">Light Detection and Ranging</strong>, is a remote sensing technology that measures highly accurate distances by emitting laser pulses onto the Earth’s surface to create 3D maps of objects and landscapes (Park et al., 2023; Roussel et al., 2020). This technology provides precise three-dimensional data about topography and surface features (Tooke et al., 2009).</p>
+<p>In forestry, LiDAR is commonly used for <strong class="highlight-blue">mapping and assessing forests</strong>, including estimating tree heights and canopy structures (Roussel et al., 2020). In urban planning, it supports applications such as land use planning and infrastructure development (Dawood et al., 2017).</p>
+<p><img src="images/tree-detection.gif" class="img-fluid" style="width:40.0%" alt="Tree Detection"> <span class="figure-caption">Figure 1: Tree detection using LiDAR (GIF demo).</span></p>
+<p><img src="images/individual-tree-detection.gif" class="img-fluid" style="width:40.0%" alt="Individual Tree Detection"> <span class="figure-caption">Figure 2: Individual tree identification workflow using LiDAR.</span></p>
 </div>
- <!-- /main -->
+</div>
+<hr>
+</section>
+<section id="types-of-lidar" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-lidar"><span class="highlight-blue">Types of LiDAR</span></h2>
+<p>LiDAR systems are broadly categorized into two main types: <strong class="highlight-blue">Discrete Return LiDAR</strong> and <strong class="highlight-blue">Full Waveform LiDAR</strong>. Each type collects data differently and serves distinct purposes depending on the application.</p>
+<p><strong class="highlight-blue">Discrete Return LiDAR</strong>, commonly used in terrestrial and airborne surveys, captures distinct return points from each laser pulse, producing a 3D point cloud of the scanned environment.</p>
+<p><strong class="highlight-blue">Full Waveform LiDAR</strong> records the entire energy profile of the returning signal, offering a continuous vertical representation of surfaces, which is especially useful for analyzing complex vegetation structures or terrain in satellite-based applications.</p>
+<hr>
+</section>
+<section id="types-of-lidar-systems" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-lidar-systems"><span class="highlight-blue">Types of LiDAR Systems</span></h2>
+<div class="lidar-grid">
+<div>
+<p><strong class="highlight-blue">✈️ Airborne LiDAR</strong><br> Mounted on drones or aircraft to map forests and terrain from above.</p>
+</div>
+<div>
+<p><strong class="highlight-blue">🌲 Terrestrial LiDAR</strong><br> Stationary ground-based scanners used for capturing tree trunks and structural details.</p>
+</div>
+<div>
+<p><strong class="highlight-blue">🛰️ Spaceborne LiDAR</strong><br> Satellite-based systems used for global ecosystem monitoring and elevation mapping.</p>
+</div>
+<div>
+<p><strong class="highlight-blue">🚗 Mobile LiDAR</strong><br> Mounted on vehicles or backpacks for scanning roads and built environments while in motion.</p>
+</div>
+</div>
+<div class="col-md-5">
+<p><img src="images/lidar.jpg" class="img-fluid" style="width:40.0%" alt="LiDAR point cloud"> <span class="figure-caption">Figure 3: Types of LiDAR from Salas (2021).</span></p>
+</div>
+<hr>
+</section>
+<section id="how-does-lidar-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-lidar-work"><span class="highlight-blue">How Does LiDAR Work</span></h2>
+<p>LiDAR works by emitting laser pulses from a sensor mounted on an aircraft or ground-based device. These laser pulses interact with objects and the Earth’s surface and then bounce back to the sensor. By precisely measuring the time it takes for the laser pulses to return, LiDAR can calculate the distance between the sensor and the objects or the ground surface.</p>
+<p>LiDAR creates a detailed 3D map of the surveyed area, including terrain, vegetation, buildings, and other objects. This data is valuable for various applications, including forestry (like estimating tree heights and canopy structure), urban planning, flood modeling, and more. LiDAR technology provides highly accurate and detailed structural information, making it essential for many scientific and environmental studies.</p>
+<p>The most common format for discrete-return LiDAR point cloud data is a <strong>LAZ</strong> file (e.g., <code>lidar_data.laz</code>). LAZ files are a lossless compression of <strong>LAS</strong> files, which was the industry standard LiDAR data format for a long time. LAS files are still used somewhat, but given the vastly reduced file sizes of LAZ, LAZ has largely replaced LAS.</p>
+<hr>
+</section>
+<section id="common-tools-for-processing-lidar" class="level2">
+<h2 class="anchored" data-anchor-id="common-tools-for-processing-lidar"><span class="highlight-blue">Common Tools for Processing LiDAR</span></h2>
+<div class="lidar-grid">
+<div>
+<p><img src="images/clipboard-3247262995.png" class="img-fluid" width="32" alt="clipboard"> <strong class="highlight-blue">R (lidR package)</strong><br> The <code>lidR</code> package is a free and open-source tool in R for processing and analyzing LiDAR data. It supports point cloud filtering, tree detection, DTM/CHM generation, and forest metrics.</p>
+</div>
+<div>
+<p><strong class="highlight-blue">🐍 Python (PDAL)</strong><br> PDAL (Point Data Abstraction Library) is a powerful open-source library, similar to GDAL. It’s built in C/C++ but offers a robust Python interface. PDAL uses a pipeline system written in JSON, making it highly customizable.</p>
+</div>
+<div>
+<p><img src="images/clipboard-3682771675.png" class="img-fluid" width="37" alt="clipboard"> <strong class="highlight-blue">CloudCompare</strong><br> CloudCompare is an open-source tool designed for viewing, editing, and processing point clouds. It’s user-friendly and highly interactive, making it ideal for visual exploration of point clouds.</p>
+</div>
+<div>
+<p><strong class="highlight-blue">LAStools</strong><br> This tool is ideal for efficiently processing large quantities of LiDAR data. It supports both command-line and GUI workflows, and it’s often used for automated pipelines.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -175,6 +222,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

@@ -1,0 +1,212 @@
+/* ===== FIXED CSS BASED ON YOUR GOALS ===== */
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  max-width: 1400px;
+  width: 100%;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 280px;
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+
+/* Profile image */
+.profile-img {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  background-color: #1997c6;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 30px 0;
+  max-width: 100%;
+}
+
+/* Publication row */
+.pub-row {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Each publication card */
+.pub-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 20px;
+  flex: 1 1 calc(50% - 20px);
+  min-width: 350px;
+}
+
+.pub-card h3 a {
+  color: #0073e6;
+  margin-top: 0;
+  font-size: 1.0rem;
+}
+
+.pub-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Remove horizontal scroll / lines */
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  border: none !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+  }
+
+  .main-content {
+    padding: 0;
+  }
+
+  .pub-row {
+    flex-direction: column;
+  }
+
+  .pub-card {
+    flex: 1 1 100%;
+    min-width: unset;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+}
+.role-title {
+  color: #0077b6; /* Nice blue color */
+  font-weight: bold;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #1997c6; /* Softer blue for navbar */
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-title {
+  color: white !important;
+  font-weight: bold;
+}
+.lidar-type {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+td, th {
+  vertical-align: top;
+  padding: 1rem;
+  border: none; /* Removes table lines */
+}
+/* Blue text style */
+/* Highlighted text */
+.highlight-blue {
+  color: #1997c6;
+  font-weight: bold;
+}
+
+/* Grid display */
+.lidar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Remove borders in LiDAR system table */
+table.no-border td {
+  border: none;
+  padding: 1rem;
+  vertical-align: top;
+}
+/* REMOVE HEADING LINES */
+h1, h2, h3, h4, h5, h6 {
+  border: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0.5rem;
+}
+
+/* CONTROL IMAGE SIZE */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* REDUCE SPECIFIC IMAGE SIZE */
+img.figure-1 {
+  width: 85%; /* you can reduce more if needed */
+  display: block;
+  margin-top: 1rem;
+}
+
+/* STYLE FOR IMAGE CAPTIONS */
+.figure-caption {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.3rem;
+  display: block;
+  font-style: italic;
+}
+
+/* REMOVE BORDER FROM LIDAR SYSTEM TABLE */
+table.no-border td {
+  border: none !important;
+  padding: 1rem;
+  vertical-align: top;
+}
