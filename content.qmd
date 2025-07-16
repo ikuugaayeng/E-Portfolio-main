@@ -2,23 +2,19 @@
 editor: visual
 ---
 
-## [LiDAR Tools and Workflows]{.highlight-blue}
 
-::::: row
+## [LiDAR Tools and Workflows]{#section1 .highlight-blue}
+
+:::::::::::::::::: row
 ::: col-md-7
 LiDAR, which stands for <strong class="highlight-blue">Light Detection and Ranging</strong>, is a remote sensing technology that measures highly accurate distances by emitting laser pulses onto the Earth's surface to create 3D maps of objects and landscapes (Park et al., 2023; Roussel et al., 2020). This technology provides precise three-dimensional data about topography and surface features (Tooke et al., 2009).
 
 In forestry, LiDAR is commonly used for <strong class="highlight-blue">mapping and assessing forests</strong>, including estimating tree heights and canopy structures (Roussel et al., 2020). In urban planning, it supports applications such as land use planning and infrastructure development (Dawood et al., 2017).
-
-![Tree Detection](images/tree-detection.gif){width="40%"} [Figure 1: Tree detection using LiDAR (GIF demo).]{.figure-caption}
-
-![Individual Tree Detection](images/individual-tree-detection.gif){width="40%"} [Figure 2: Individual tree identification workflow using LiDAR.]{.figure-caption}
 :::
-:::::
 
 ------------------------------------------------------------------------
 
-## [Types of LiDAR]{.highlight-blue}
+## [Types of LiDAR]{#section2 .highlight-blue}
 
 LiDAR systems are broadly categorized into two main types: <strong class="highlight-blue">Discrete Return LiDAR</strong> and <strong class="highlight-blue">Full Waveform LiDAR</strong>. Each type collects data differently and serves distinct purposes depending on the application.
 
@@ -26,9 +22,12 @@ LiDAR systems are broadly categorized into two main types: <strong class="highli
 
 <strong class="highlight-blue">Full Waveform LiDAR</strong> records the entire energy profile of the returning signal, offering a continuous vertical representation of surfaces, which is especially useful for analyzing complex vegetation structures or terrain in satellite-based applications.
 
+:::::::: col-md-5
+![LiDAR point cloud](images/lidar.jpg){width="40%"} [Figure 3: Types of LiDAR from Salas (2021).]{.figure-caption}
+
 ------------------------------------------------------------------------
 
-## [Types of LiDAR Systems]{.highlight-blue}
+## [Types of LiDAR Systems]{#section3 .highlight-blue}
 
 ::::::: lidar-grid
 <div>
@@ -55,13 +54,11 @@ LiDAR systems are broadly categorized into two main types: <strong class="highli
 
 </div>
 :::::::
+::::::::
 
-::: col-md-5
-![LiDAR point cloud](images/lidar.jpg){width="40%"} [Figure 3: Types of LiDAR from Salas (2021).]{.figure-caption}
-:::
 ------------------------------------------------------------------------
 
-## [How Does LiDAR Work]{.highlight-blue}
+## [How does LiDAR Work]{#section4 .highlight-blue}
 
 LiDAR works by emitting laser pulses from a sensor mounted on an aircraft or ground-based device. These laser pulses interact with objects and the Earth's surface and then bounce back to the sensor. By precisely measuring the time it takes for the laser pulses to return, LiDAR can calculate the distance between the sensor and the objects or the ground surface.
 
@@ -71,7 +68,21 @@ The most common format for discrete-return LiDAR point cloud data is a **LAZ** f
 
 ------------------------------------------------------------------------
 
-## [Common Tools for Processing LiDAR]{.highlight-blue}
+## [Interactive Examples]{#section5 .highlight-blue}
+
+::::: {.grid .gap-2}
+::: g-col-6
+![Tree Detection](images/tree-detection.gif){width="100%"} [Figure 1: Tree detection using LiDAR (GIF demo).]{.figure-caption}
+:::
+
+::: g-col-6
+![Individual Tree Detection](images/individual-tree-detection.gif){width="100%"} [Figure 2: Individual tree identification workflow using LiDAR.]{.figure-caption}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## [Common Tools for Processing LiDAR]{#section6 .highlight-blue}
 
 ::::::: lidar-grid
 <div>
@@ -98,3 +109,4 @@ The most common format for discrete-return LiDAR point cloud data is a **LAZ** f
 
 </div>
 :::::::
+::::::::::::::::::

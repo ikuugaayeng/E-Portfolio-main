@@ -120,11 +120,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lidar-tools-and-workflows" id="toc-lidar-tools-and-workflows" class="nav-link active" data-scroll-target="#lidar-tools-and-workflows"><span class="highlight-blue">LiDAR Tools and Workflows</span></a></li>
-  <li><a href="#types-of-lidar" id="toc-types-of-lidar" class="nav-link" data-scroll-target="#types-of-lidar"><span class="highlight-blue">Types of LiDAR</span></a></li>
-  <li><a href="#types-of-lidar-systems" id="toc-types-of-lidar-systems" class="nav-link" data-scroll-target="#types-of-lidar-systems"><span class="highlight-blue">Types of LiDAR Systems</span></a></li>
-  <li><a href="#how-does-lidar-work" id="toc-how-does-lidar-work" class="nav-link" data-scroll-target="#how-does-lidar-work"><span class="highlight-blue">How Does LiDAR Work</span></a></li>
-  <li><a href="#common-tools-for-processing-lidar" id="toc-common-tools-for-processing-lidar" class="nav-link" data-scroll-target="#common-tools-for-processing-lidar"><span class="highlight-blue">Common Tools for Processing LiDAR</span></a></li>
+  <li><a href="#lidar-tools-and-workflows" id="toc-lidar-tools-and-workflows" class="nav-link active" data-scroll-target="#lidar-tools-and-workflows"><span id="section1" class="highlight-blue">LiDAR Tools and Workflows</span></a></li>
   </ul>
 </nav>
     </div>
@@ -135,26 +131,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="lidar-tools-and-workflows" class="level2">
-<h2 class="anchored" data-anchor-id="lidar-tools-and-workflows"><span class="highlight-blue">LiDAR Tools and Workflows</span></h2>
+<h2 class="anchored" data-anchor-id="lidar-tools-and-workflows"><span id="section1" class="highlight-blue">LiDAR Tools and Workflows</span></h2>
 <div class="row">
 <div class="col-md-7">
 <p>LiDAR, which stands for <strong class="highlight-blue">Light Detection and Ranging</strong>, is a remote sensing technology that measures highly accurate distances by emitting laser pulses onto the Earth’s surface to create 3D maps of objects and landscapes (Park et al., 2023; Roussel et al., 2020). This technology provides precise three-dimensional data about topography and surface features (Tooke et al., 2009).</p>
 <p>In forestry, LiDAR is commonly used for <strong class="highlight-blue">mapping and assessing forests</strong>, including estimating tree heights and canopy structures (Roussel et al., 2020). In urban planning, it supports applications such as land use planning and infrastructure development (Dawood et al., 2017).</p>
-<p><img src="images/tree-detection.gif" class="img-fluid" style="width:40.0%" alt="Tree Detection"> <span class="figure-caption">Figure 1: Tree detection using LiDAR (GIF demo).</span></p>
-<p><img src="images/individual-tree-detection.gif" class="img-fluid" style="width:40.0%" alt="Individual Tree Detection"> <span class="figure-caption">Figure 2: Individual tree identification workflow using LiDAR.</span></p>
-</div>
 </div>
 <hr>
-</section>
 <section id="types-of-lidar" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-lidar"><span class="highlight-blue">Types of LiDAR</span></h2>
+<h2 class="anchored" data-anchor-id="types-of-lidar"><span id="section2" class="highlight-blue">Types of LiDAR</span></h2>
 <p>LiDAR systems are broadly categorized into two main types: <strong class="highlight-blue">Discrete Return LiDAR</strong> and <strong class="highlight-blue">Full Waveform LiDAR</strong>. Each type collects data differently and serves distinct purposes depending on the application.</p>
 <p><strong class="highlight-blue">Discrete Return LiDAR</strong>, commonly used in terrestrial and airborne surveys, captures distinct return points from each laser pulse, producing a 3D point cloud of the scanned environment.</p>
 <p><strong class="highlight-blue">Full Waveform LiDAR</strong> records the entire energy profile of the returning signal, offering a continuous vertical representation of surfaces, which is especially useful for analyzing complex vegetation structures or terrain in satellite-based applications.</p>
+<div class="col-md-5">
+<p><img src="images/lidar.jpg" class="img-fluid" style="width:40.0%" alt="LiDAR point cloud"> <span class="figure-caption">Figure 3: Types of LiDAR from Salas (2021).</span></p>
 <hr>
-</section>
 <section id="types-of-lidar-systems" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-lidar-systems"><span class="highlight-blue">Types of LiDAR Systems</span></h2>
+<h2 class="anchored" data-anchor-id="types-of-lidar-systems"><span id="section3" class="highlight-blue">Types of LiDAR Systems</span></h2>
 <div class="lidar-grid">
 <div>
 <p><strong class="highlight-blue">✈️ Airborne LiDAR</strong><br> Mounted on drones or aircraft to map forests and terrain from above.</p>
@@ -169,20 +162,31 @@ ul.task-list li input[type="checkbox"] {
 <p><strong class="highlight-blue">🚗 Mobile LiDAR</strong><br> Mounted on vehicles or backpacks for scanning roads and built environments while in motion.</p>
 </div>
 </div>
-<div class="col-md-5">
-<p><img src="images/lidar.jpg" class="img-fluid" style="width:40.0%" alt="LiDAR point cloud"> <span class="figure-caption">Figure 3: Types of LiDAR from Salas (2021).</span></p>
+</section>
 </div>
 <hr>
 </section>
 <section id="how-does-lidar-work" class="level2">
-<h2 class="anchored" data-anchor-id="how-does-lidar-work"><span class="highlight-blue">How Does LiDAR Work</span></h2>
+<h2 class="anchored" data-anchor-id="how-does-lidar-work"><span id="section4" class="highlight-blue">How does LiDAR Work</span></h2>
 <p>LiDAR works by emitting laser pulses from a sensor mounted on an aircraft or ground-based device. These laser pulses interact with objects and the Earth’s surface and then bounce back to the sensor. By precisely measuring the time it takes for the laser pulses to return, LiDAR can calculate the distance between the sensor and the objects or the ground surface.</p>
 <p>LiDAR creates a detailed 3D map of the surveyed area, including terrain, vegetation, buildings, and other objects. This data is valuable for various applications, including forestry (like estimating tree heights and canopy structure), urban planning, flood modeling, and more. LiDAR technology provides highly accurate and detailed structural information, making it essential for many scientific and environmental studies.</p>
 <p>The most common format for discrete-return LiDAR point cloud data is a <strong>LAZ</strong> file (e.g., <code>lidar_data.laz</code>). LAZ files are a lossless compression of <strong>LAS</strong> files, which was the industry standard LiDAR data format for a long time. LAS files are still used somewhat, but given the vastly reduced file sizes of LAZ, LAZ has largely replaced LAS.</p>
 <hr>
 </section>
+<section id="interactive-examples" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-examples"><span id="section5" class="highlight-blue">Interactive Examples</span></h2>
+<div class="grid gap-2">
+<div class="g-col-6">
+<p><img src="images/tree-detection.gif" class="img-fluid" style="width:100.0%" alt="Tree Detection"> <span class="figure-caption">Figure 1: Tree detection using LiDAR (GIF demo).</span></p>
+</div>
+<div class="g-col-6">
+<p><img src="images/individual-tree-detection.gif" class="img-fluid" style="width:100.0%" alt="Individual Tree Detection"> <span class="figure-caption">Figure 2: Individual tree identification workflow using LiDAR.</span></p>
+</div>
+</div>
+<hr>
+</section>
 <section id="common-tools-for-processing-lidar" class="level2">
-<h2 class="anchored" data-anchor-id="common-tools-for-processing-lidar"><span class="highlight-blue">Common Tools for Processing LiDAR</span></h2>
+<h2 class="anchored" data-anchor-id="common-tools-for-processing-lidar"><span id="section6" class="highlight-blue">Common Tools for Processing LiDAR</span></h2>
 <div class="lidar-grid">
 <div>
 <p><img src="images/clipboard-3247262995.png" class="img-fluid" width="32" alt="clipboard"> <strong class="highlight-blue">R (lidR package)</strong><br> The <code>lidR</code> package is a free and open-source tool in R for processing and analyzing LiDAR data. It supports point cloud filtering, tree detection, DTM/CHM generation, and forest metrics.</p>
@@ -196,6 +200,8 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p><strong class="highlight-blue">LAStools</strong><br> This tool is ideal for efficiently processing large quantities of LiDAR data. It supports both command-line and GUI workflows, and it’s often used for automated pipelines.</p>
 </div>
+</div>
+</section>
 </div>
 
 
